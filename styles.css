@@ -185,6 +185,7 @@
     color: #444;
 }
 
+/*Responsive del CSS*/
 @media(max-width:1340px){
     #menu ul a {
         padding: 9px;
@@ -262,5 +263,25 @@
 
     .logo {
         flex-basis: 70%;
+    }
+}
+
+@media(max-width:768px){
+    #projects{
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+    #aside{
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+ 
+    #content{
+        /*display: flex;*/
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }
