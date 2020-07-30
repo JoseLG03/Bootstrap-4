@@ -1,0 +1,12 @@
+#menu{
+    height: 50px;
+}
+#menu ul li{
+    list-style: none;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+#header h1{
+    text-align: center;
+}
