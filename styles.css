@@ -11,6 +11,10 @@
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
+
 .item{
     height: 150px;
 }
@@ -19,4 +23,8 @@ footer{
     height: 50px;
     line-height: 50px;
     text-align: center;
+}
+
+.lateral{
+    height: 350px;
 }
