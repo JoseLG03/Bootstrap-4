@@ -1,6 +1,7 @@
 #menu{
     height: 50px;
 }
+
 #menu ul li{
     list-style: none;
     text-decoration: none;
@@ -18,6 +19,7 @@ h2{
 div{
     text-align: center;
 }
+
 .item{
     height: 150px;
 }
